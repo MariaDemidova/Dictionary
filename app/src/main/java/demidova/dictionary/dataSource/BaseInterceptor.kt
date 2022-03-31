@@ -4,10 +4,10 @@ import okhttp3.Interceptor
 import okhttp3.Response
 import java.io.IOException
 
-
+const val RESPONSE_CODE = 0
 class BaseInterceptor private constructor() : Interceptor {
 
-    private var responseCode: Int = 0
+    private var responseCode: Int = RESPONSE_CODE
 
     @Throws(IOException::class)
     override fun intercept(chain: Interceptor.Chain): Response {

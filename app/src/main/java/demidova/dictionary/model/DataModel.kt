@@ -1,8 +1,12 @@
 package demidova.dictionary.model
 
 import com.google.gson.annotations.SerializedName
+import demidova.dictionary.domain.Meanings
 
-class DataModel (
-    @field:SerializedName("text") val text: String?,
-    @field:SerializedName("meanings") val meanings: List<Meanings>?
-    )
+const val TEXT = "text"
+const val MEANINGS = "meanings"
+
+class DataModel(
+    @SerializedName(TEXT) val text: String?,
+    @SerializedName(MEANINGS) val meanings: List<Meanings>?
+)

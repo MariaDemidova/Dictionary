@@ -1,7 +1,7 @@
-package demidova.dictionary.domain
+package demidova.dictionary.dataSource
 
 import demidova.dictionary.model.DataModel
-import demidova.dictionary.dataSource.DataSource
+
 import io.reactivex.Observable
 
 class RepositoryImpl (private val dataSource: DataSource<List<DataModel>>) :

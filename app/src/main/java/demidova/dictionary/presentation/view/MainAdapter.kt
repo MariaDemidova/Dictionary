@@ -1,4 +1,4 @@
-package demidova.dictionary.view
+package demidova.dictionary.presentation.view
 
 import android.view.LayoutInflater
 import android.view.View

@@ -1,4 +1,4 @@
-package demidova.dictionary.domain
+package demidova.dictionary.dataSource
 
 import io.reactivex.Observable
 
